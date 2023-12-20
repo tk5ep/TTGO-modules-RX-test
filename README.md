@@ -7,13 +7,14 @@ Sometimes, you can doubt of a module that seems to have receiving problems.
 
 Injecting a signal with a known value, you can check this.
 
-This software puts the module in receive mode and displays the RSSI value of the input signal.
+This software puts the module in receive mode and displays the RSSI value in dBm of the input signal.
 
 # How ?
 - Connect a signal generator at the antenna connector
 - Load the software on Visual Studio Code with PlatformIO compiler.
 - Change to settings to fit to your board.
 - Reboot the module that will display the RSSI value of the received signal.
+  The noise floor (without any antenna or signal) is around -118dBm
 
 # Settings
     #define Lilygo_Tbeam               // LilyGo T-beam board. Comment out for this board
