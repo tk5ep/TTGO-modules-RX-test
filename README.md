@@ -14,6 +14,7 @@ This software puts the module in receive mode and displays the RSSI value in dBm
 - Load the software on Visual Studio Code with PlatformIO compiler.
 - Change to settings to fit to your board.
 - Reboot the module that will display the RSSI value of the received signal.
+  
   The noise floor (without any antenna or signal) is around -118dBm
 
 # Settings
