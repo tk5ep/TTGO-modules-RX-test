@@ -1,4 +1,4 @@
-[T-beam module]()
+![T-beam module](RX-test-screen.jpg)
 # What is it ?
 A small software that allows to measure the receiver sensitivity of Lilygos modules T-beam and T3.
 
