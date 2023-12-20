@@ -26,3 +26,6 @@ This software puts the module in receive mode and displays the RSSI value in dBm
 Comment the unused lines and enter the desired frequency
 
 The upper lines are for a T-beam module with an OLED using the SSH1106 driver.
+
+> [!NOTE]
+You must change the frequency, depending of your LoRa band supported by your LoRa module.
