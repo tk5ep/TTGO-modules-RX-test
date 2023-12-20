@@ -10,7 +10,7 @@ Injecting a signal with a known value, you can check this.
 This software puts the module in receive mode and displays the RSSI value in dBm of the input signal.
 
 # How ?
-- Connect a signal generator at the antenna connector
+- Connect a signal generator at the antenna connector with a known value, modulated or not.
 - Load the software on Visual Studio Code with PlatformIO compiler.
 - Change to settings to fit to your board.
 - Reboot the module that will display the RSSI value of the received signal.
@@ -24,4 +24,5 @@ This software puts the module in receive mode and displays the RSSI value in dBm
     double RXfreq = 433.775;            // frequency in MHz
 
 Comment the unused lines and enter the desired frequency
+
 The upper lines are for a T-beam module with an OLED using the SSH1106 driver.
